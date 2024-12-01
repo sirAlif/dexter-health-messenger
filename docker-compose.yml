@@ -7,7 +7,7 @@ networks:
   backend:
 
 services:
-  app:
+  api:
     build: .
     env_file:
       - .env
