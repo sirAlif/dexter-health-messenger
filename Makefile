@@ -3,3 +3,6 @@ run:
 
 stop:
 	docker-compose down
+
+run-client:
+	PYTHONPATH=. python client/terminal_client.py
